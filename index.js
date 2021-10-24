@@ -33,9 +33,13 @@ function calculateChange(amountToBeReturned){
     }
 }
 
-function hideMessage(){
+// function hideMessage(){
+//     message.style.display = "none";
+// }
+
+function hideMessage() {
     message.style.display = "none";
-}
+  }
 function showMessage(msg){
     message.style.display = "block";
     message.innerText = msg;
